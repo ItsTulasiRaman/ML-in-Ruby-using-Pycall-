@@ -4,12 +4,13 @@
 
 - **In windows:**
 
-Open terminal (powershell/cmd) using run as administrator then type the command ``gem install pycall``
+  Open terminal (powershell/cmd) using run as administrator then type the command ``gem install pycall``
 
 - **In linux:**
 
-Using the command ``sudo gem install pycall``
+  Using the command ``sudo gem install pycall``
 
+<br/>
 
 **Step 02: Install necessary python packages locally using pip installer**
 
@@ -35,6 +36,7 @@ Note: If scikit-learn doesn’t work try ‘sklearn’ however sklearn package i
 
 Note: By default, `pip install` in linux would install packages in python2 environment. Using pip3 specifies the system to install packages in python3 environment.
 
+<br/>
 
 **Step 3: Importing python functions from local systems using pycall**
 
@@ -53,6 +55,7 @@ pyimport 'sklearn.preprocessing', as: 'pre'
 
 Note: There are other possible ways to do this import. The above sample is not the only syntax.
 
+<br/>
 
 **Step 04: Accessing python functions in ruby:**
 
@@ -79,6 +82,8 @@ models, predictions = clf.fit(x\_train, x\_test, y\_train, y\_test)
 puts models
 
 Here, the alias `lc` is used to create an instance for LazyClassifier with predictions set to True. Next, we use the fit method of LazyClassifier to train the models on the training data (x\_train and y\_train) and make predictions on the test data (x\_test). The models variable will contain a dictionary with the trained models. Finally, we print the models dictionary.
+
+<br/>
 
 **References and materials:**
 
