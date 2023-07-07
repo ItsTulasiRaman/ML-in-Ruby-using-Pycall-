@@ -91,3 +91,7 @@ Here, the alias `lc` is used to create an instance for LazyClassifier with predi
 
 <https://www.analyticsvidhya.com/blog/2021/05/lazy-predict-best-suitable-model-for-you/>
 
+<br/>
+
+**Clone and run the project:**
+<https://github.com/ItsTulasiRaman/ML-in-Ruby-using-Pycall-.git/>
